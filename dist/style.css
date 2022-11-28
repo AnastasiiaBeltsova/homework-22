@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding-left: 30px;
+}
+
+.weather-wrapper {
+  width: 400px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(69, 69, 155);
+}
+
+.weather-01 p,
+.weather-02 p {
+  color: white;
+}
+
+.timer,
+.temp {
+  font-size: 25px;
+}
